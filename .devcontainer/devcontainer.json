@@ -1,0 +1,21 @@
+{
+  "name": "ROS2 Humble Codespaces Starter",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspaces/ros2-docker-codespaces-starter",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-vscode.cpptools",
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'ROS2 Humble DevContainer is ready!'",
+  "remoteUser": "root"
+}
