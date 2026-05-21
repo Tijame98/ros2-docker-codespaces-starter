@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     python3-rosdep \
     build-essential \
     git \
+    ros-humble-foxglove-bridge \
     && rm -rf /var/lib/apt/lists/*
 
 # Workspace
